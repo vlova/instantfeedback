@@ -1,0 +1,19 @@
+{
+  "name": "flux-react",
+  "version": "2.6.1",
+  "main": "src/main.js",
+  "dependencies": {
+    "react": "^0.11.2"
+  },
+  "homepage": "https://github.com/christianalfoni/flux-react",
+  "_release": "2.6.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.6.1",
+    "commit": "ce4e160c2be212edc2e423e9ca1baf29e84e8b46"
+  },
+  "_source": "git://github.com/christianalfoni/flux-react.git",
+  "_target": "~2.6.1",
+  "_originalSource": "flux-react",
+  "_direct": true
+}

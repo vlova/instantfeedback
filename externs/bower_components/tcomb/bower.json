@@ -1,0 +1,40 @@
+{
+  "name": "tcomb",
+  "main": "index.js",
+  "version": "0.3.6",
+  "homepage": "https://github.com/gcanti/tcomb",
+  "authors": [
+    "gcanti <giulio.canti@gmail.com>"
+  ],
+  "description": "Runtime types checking for JavaScript ",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "type",
+    "types",
+    "combinators",
+    "checking",
+    "safety",
+    "models",
+    "domain",
+    "debugging",
+    "immutable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "coverage",
+    "package.json",
+    "Gruntfile.js",
+    ".jshintrc",
+    "tcomb.sjs",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ]
+}

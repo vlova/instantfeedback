@@ -1,0 +1,21 @@
+{
+  "name": "react-async-standalone",
+  "main": "./browser.js",
+  "browserify": {
+    "transform": [
+      "envify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "react": "global:__ReactShim.React",
+    "react/lib/cloneWithProps": "global:__ReactShim.cloneWithProps",
+    "react/lib/invariant": "global:__ReactShim.invariant"
+  },
+  "devDependencies": {
+    "browserify": "^3.33.0",
+    "browserify-shim": "^3.3.2",
+    "envify": "^1.2.1",
+    "uglify-js": "^2.4.13"
+  }
+}

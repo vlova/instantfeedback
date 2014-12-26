@@ -1,0 +1,40 @@
+{
+  "name": "react-async",
+  "version": "0.9.4",
+  "authors": [
+    "Andrey Popp <8mayday@gmail.com>"
+  ],
+  "description": "React mixin for components with async state",
+  "main": "react-async.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "async"
+  ],
+  "license": "MIT",
+  "homepage": "http://andreypopp.viewdocs.io/react-async",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.10.0"
+  },
+  "_release": "0.9.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.9.4",
+    "commit": "fc6e7f06791f356d47d8a6de698b0e917f0eea8a"
+  },
+  "_source": "git://github.com/andreypopp/react-async-bower.git",
+  "_target": "~0.9.4",
+  "_originalSource": "react-async",
+  "_direct": true
+}

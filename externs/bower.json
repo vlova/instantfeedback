@@ -1,0 +1,32 @@
+{
+  "name": "modules",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vlova/instantfeedback",
+  "authors": [
+    "Viktor Lova <nsinreal@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react-bootstrap": "~0.13.0",
+    "react": "~0.12.2",
+    "requirejs": "~2.1.15",
+    "superagent": "~0.21.0",
+    "tcomb-validation": "~0.2.3",
+    "react-mixin-manager": "~0.9.4",
+    "react-treeview": "~0.3.11"
+  },
+  "resolutions": {
+    "react": ">= 0.12.0"
+  }
+}

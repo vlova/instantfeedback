@@ -1,0 +1,20 @@
+body {
+  background: rgba(0,0,0,0);
+}
+
+.message-id {
+  font-size: 31px;
+  color: #A02020;
+}
+
+.message-text {
+  font-size: 34px;
+}
+
+.message-sep {
+  font-size: 28px;
+}
+
+input {
+  font-size: 25px;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "tcomb-validation",
+  "main": "index.js",
+  "version": "0.2.3",
+  "homepage": "https://github.com/gcanti/tcomb-validation",
+  "authors": [
+    "gcanti <giulio.canti@gmail.com>"
+  ],
+  "description": "General purpose validation library for JavaScript",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "dependencies": {
+    "tcomb": "^0.3.5"
+  },
+  "keywords": [
+    "validation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "playground",
+    "test",
+    "coverage",
+    "package.json",
+    "Gruntfile.js",
+    ".jshintrc",
+    "LICENSE",
+    "README.md"
+  ],
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "3c5035c93c19759224f6dce3f3dd3aca4cc09b3b"
+  },
+  "_source": "git://github.com/gcanti/tcomb-validation.git",
+  "_target": "~0.2.3",
+  "_originalSource": "tcomb-validation",
+  "_direct": true
+}

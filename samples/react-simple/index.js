@@ -14,24 +14,33 @@ require(
     d.el = React.createElement;
 
     var pageData = {
-      comments: [{
-        id: 1,
-        author: 'Vasiliy Pupkin',
-        when: new Date('12/26/2014'),
-        text: 'this is my superios comment',
-        votes: 10
-      }, {
-        id: 2,
-        author: 'Vasiliy Pupkin Stanislavovich',
-        when: new Date('12/26/2014 2:10:10'),
-        text: 'this is my another superious comment',
-        comments: [{
-          id: 3,
-          author: 'Admin',
-          when: new Date('12/26/2014 2:40:20'),
-          text: 'bla-bla'
-        }]
-      }],
+      comments: [
+        {
+          id: 5,
+          author: 'Vasiliy Pupkin',
+          when: new Date('12/26/2014'),
+          text: 'цукцукцу кц цкукцу кцук',
+          votes: 10
+        },
+        {
+          id: 1,
+          author: 'Vasiliy Pupkin',
+          when: new Date('12/26/2014'),
+          text: 'this is my superios comment',
+          votes: 10
+        }, {
+          id: 2,
+          author: 'Vasiliy Pupkin Stanislavovich',
+          when: new Date('12/26/2014 2:10:10'),
+          text: 'this is my another superious comment',
+          comments: [{
+            id: 3,
+            author: 'Admin',
+            when: new Date('12/26/2014 2:40:20'),
+            text: 'bla-bla'
+          }]
+        }
+      ],
       level: 0
     };
 
@@ -141,8 +150,8 @@ require(
           d.textarea({ ref: 'text' }, null),
           d.br(),
           this.state.valid ?
-            null
-            : ['Введите сообщение, блин!', d.br()],
+          null
+          : ['Введите сообщение, блин!', d.br()],
           d.input({ type:'submit', value: 'Answer to comment' }, [])
         ]);
       }
@@ -175,27 +184,25 @@ require(
       },
 
       render: function() {
-        return d.div({class: 'comment comment-' + this.props.level}, [
-          d.span(
-            {class: 'text'},
-            [
-              d.br(),
-              this.props.text
-            ]),
-          d.br(),
-          d.span([
-            d.el(VoteBox, { votes: this.props.votes }),
-            ' | ',
-            d.a({ href: '#', onClick: this.renderAnswer }, 'Answer'),
-            ' | ',
-            d.span({class: 'elapsed'},
-                   this.state.elapsed + ' seconds elapsed'),
-            ' | ',
-            d.span({class: 'author'}, [
-              d.strong('Author: '), this.props.author])]),
-          d.el(AnswerForm, { visible: this.state.answerForm }),
-          d.el(CommentList, { data: this.props })
-        ]);
+        return d.div(
+          {
+            class: 'comment comment-' + this.props.level
+          }, [
+            d.span({class: 'text'}, [ d.br(), this.props.text ]),
+            d.br(),
+            d.span([
+              d.el(VoteBox, { votes: this.props.votes }),
+              ' | ',
+              d.a({ href: '#', onClick: this.renderAnswer }, 'Answer'),
+              ' | ',
+              d.span({class: 'elapsed'},
+                     this.state.elapsed + ' seconds elapsed'),
+              ' | ',
+              d.span({class: 'author'}, [
+                d.strong('Author: '), this.props.author])]),
+            d.el(AnswerForm, { visible: this.state.answerForm }),
+            d.el(CommentList, { data: this.props })
+          ]);
       }
     });
 

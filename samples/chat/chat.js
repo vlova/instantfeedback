@@ -54,24 +54,5 @@
     .getElementById('clear-log')
     .bind('click', clearMessages);
 
-
-//   function goToFullScreen() {
-//     var requestFullScreen = document.requestFullScreen || document.webkitRequestFullScreen || document.mozRequestFullScreen || document.msRequestFullscreen;
-//     requestFullScreen.call(document.body);
-//   }
-
-//   document
-//     .getElementById('fullscreen')
-//     .bind('click', goToFullScreen);
-
-//   var log = [];
-
-//   if (typeof console.logOriginal === 'undefined') {
-//     console.logOriginal = console.log;
-//   }
-
-//   console.log = function (text) {
-//     log.push(text);
-//     return console.logOriginal(text);
-//   };
+  appendMessage("привет всем");
 })();

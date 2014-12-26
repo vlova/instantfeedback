@@ -8,13 +8,14 @@ body {
 }
 
 .message-text {
-  font-size: 34px;
+  font-size: 41px;
+  color: white;
 }
 
 .message-sep {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 input {
-  font-size: 25px;
+  font-size: 33px;
 }
